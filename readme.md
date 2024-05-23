@@ -36,3 +36,7 @@ Banco de Dados: PostgreSQL
 ### -> Banco de dados
 
 <https://www.elephantsql.com/>
+
+## Breno Amaral
+## Felipe Gurgel
+## Pedro Francisco
