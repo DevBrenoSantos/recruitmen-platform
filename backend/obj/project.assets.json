@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\p314\\.nuget\\packages\\": {}
+    "C:\\Users\\conta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p314\\dev\\own\\dotnet\\RecruitmenPlatform\\backend\\backend-api.csproj",
+      "projectUniqueName": "D:\\CiênciaDaComputação\\C#\\PlataformaRecrutamento\\backend\\backend-api.csproj",
       "projectName": "backend-api",
-      "projectPath": "C:\\Users\\p314\\dev\\own\\dotnet\\RecruitmenPlatform\\backend\\backend-api.csproj",
-      "packagesPath": "C:\\Users\\p314\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p314\\dev\\own\\dotnet\\RecruitmenPlatform\\backend\\obj\\",
+      "projectPath": "D:\\CiênciaDaComputação\\C#\\PlataformaRecrutamento\\backend\\backend-api.csproj",
+      "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
+      "outputPath": "D:\\CiênciaDaComputação\\C#\\PlataformaRecrutamento\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\p314\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\conta\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
