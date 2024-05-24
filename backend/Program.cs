@@ -36,6 +36,13 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+Random rand = new Random();
+
+app.MapGet("/rand", () =>
+{
+    return rand.NextInt64();
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
