@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -8,6 +8,12 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
-  title = 'frontend';
+  protected readonly value = signal<string>("");
+
+  readonly genRand = async () => {
+    const res = await fetch("http://localhost:5235/rand");
+    this.value.set(await res.text())
+  }
 }
